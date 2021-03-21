@@ -1,0 +1,146 @@
+@media(max-width:1199px){
+    .section2__grid{
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        grid-template-rows: repeat(3 1fr);
+        grid-template-areas: 
+        'h1 h2'
+        'h3 h4'
+        'h5 h6';
+        column-gap: 30px;
+        padding-bottom: 100px;
+    }
+    .section2__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section__glavnoe_4{
+        width: 150% !important;
+        text-align: center;
+    }
+    .section2__glavnoe_7{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:991px){
+    .nav{
+        background: #000;
+        padding: 12px 0;
+    }
+    .section1__content_h2{
+        font-size: 40px;
+    }
+    .section1__box_logo{
+        width: 23%;
+    }
+    .h2-2{
+        right: 13%;
+    }
+    .h2-1{
+        right: 30%;
+    }
+    
+}
+@media(max-width:767px){
+    .nav-link{
+        font-size: 18px;
+    }
+    .header__logo{
+        width: 60%;
+    }
+    .section1__block{
+        text-align: center;
+    }
+    .section1__content_h2{
+        font-size: 36px;
+    }
+    .section1__box_link{
+        font-size: 14px;
+    }
+    .h2-2{
+        right: 10%;
+    }
+    .h2-1{
+        right: 27%;
+    }
+    .section2__grid{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        grid-template-rows: repeat(6 1fr);
+        grid-template-areas: 
+        'h1'
+        'h2'
+        'h3'
+        'h4'
+        'h5'
+        'h6';
+        column-gap: 30px;
+        padding-bottom: 100px;
+    }
+ 
+}
+@media(max-width:576px){
+    .section1{
+        padding-top: 50px;
+    }
+    .section1__title{
+        padding-bottom: 50px;
+    }
+    .section1__content_h2{
+        font-size: 31px;
+    }
+    .h2-1{
+        right: 20%;
+    }
+    .h2-2{
+        right: 0;
+    }
+    .section1__box{
+        left: 56%;
+    }
+    .section1__box_link{
+        font-size: 12px;
+    }
+    .section1__box_logo{
+        width: 20%;
+    }
+}
+@media(max-width:414px){
+    .nav-link{
+        font-size: 12px;
+    }
+    .section1__block{
+        font-size: 12px;
+    }
+    .h2-1{
+        right: 56%;
+        font-size: 28px;
+        top: -40%;
+    }
+    .h2-2{
+        right: 23%;
+        font-size: 37px;
+        top: -26%;
+    }
+    .section1__box{
+        left: 41%;
+        top: 32%;
+    }
+    .section1__box_link{
+        display: none;
+    }
+    .section1__box_logo{
+        width: 70%;
+    }
+    .section2__p{
+        font-size: 14px;
+    }
+    footer{
+        font-size: 12px;
+    }
+    .section2__box_link{
+        opacity: 1;
+    }
+}
